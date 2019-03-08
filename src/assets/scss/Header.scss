@@ -13,7 +13,7 @@
   clip-path: polygon(0 0, 100% 0, 100% 90vh, 0% 100%);
   position: relative;
 
-  .logo-box {
+  .header__logo-box {
     position: absolute;
     top: 40px;
     left: 40px;
@@ -26,7 +26,7 @@
   }
 }
 
-.header-content {
+.header__content {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -43,7 +43,7 @@
   backface-visibility: hidden;
 }
 
-.primary-text-main {
+.primary-text--main {
   display: block;
   font-size: 60px;
   padding-left: 20px;
@@ -53,28 +53,11 @@
   animation: moveInLeft 1s ease-out;
 }
 
-.primary-text-sub {
+.primary-text--sub {
   display: block;
   font-size: 20px;
   letter-spacing: 10px;
   animation: moveInRight 1s ease-out;
-}
-
-@keyframes moveColorIn {
-  0% {
-    opacity: 0;
-  }
-  30% {
-    transform: translateZ(-20px);
-  }
-
-  60% {
-    background: #f8333d8c;
-  }
-  100% {
-    opacity: 1;
-    background: #f8333d8c;
-  }
 }
 
 .btn:link,
@@ -96,7 +79,7 @@ btn:visited {
 
 .btn:hover {
   transform: translateY(-3px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   i {
     display: inline-block;
   }
@@ -104,7 +87,7 @@ btn:visited {
 
 .btn:active {
   transform: translateY(-1px);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   i {
     display: inline-block;
   }
@@ -124,20 +107,20 @@ btn:visited {
 }
 
 .btn:hover::after {
-  transform: scaleX(1.4) scaleY(1.7);
+  transform: scaleX(1.4) scaleY(1.6);
   opacity: 0;
 }
 
-.btn-red::after {
+.btn--red::after {
   background: $red-orange;
 }
 
-.btn-red {
+.btn--red {
   background: $red_orange;
   color: #fff;
 }
 
-.btn-animated {
+.btn--animated {
   animation: moveInBottom 1s ease-out 0.7s;
   animation-fill-mode: backwards;
 }
