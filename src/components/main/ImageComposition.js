@@ -1,7 +1,7 @@
 import React from "react";
-import p1 from "../../assets/img/nat-1-large.jpg";
-import p2 from "../../assets/img/nat-2-large.jpg";
-import p3 from "../../assets/img/nat-3-large.jpg";
+import p1 from "../../assets/img/Travel-proj (2).jpeg";
+import p2 from "../../assets/img/Travel-proj (7).jpeg";
+import p3 from "../../assets/img/Travel-proj (8).jpeg";
 
 import "../../assets/css/ImageComposition.min.css";
 
