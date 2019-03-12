@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Header from "../components/headers/Header";
 import About from "../components/main/About";
-// import Grid from "../components/grid/Grid";
+import Features from "../components/main/Features";
 class App extends Component {
   render() {
     return (
@@ -11,6 +11,7 @@ class App extends Component {
         </header>
         <main>
           <About />
+          <Features />
         </main>
         {/* <Grid /> */}
       </React.Fragment>

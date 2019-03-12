@@ -1,0 +1,19 @@
+@import "./partials/base";
+@import "./partials/icon-font";
+
+i {
+  font-size: 6rem;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+  background-image: linear-gradient(to right, $red_orange, $siren);
+  background-clip: text;
+  color: transparent;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+p {
+  font-weight: 400;
+}
