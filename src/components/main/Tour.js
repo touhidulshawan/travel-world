@@ -5,9 +5,7 @@ class Tour extends Component {
     return (
       <section className="tour">
         <div className="u-center-text u-margin-bottom-m">
-          <h2 className="heading__secondary">
-            Exciting tours for adventurous people
-          </h2>
+          <h2 className="heading__secondary">Our Tour Packages</h2>
         </div>
       </section>
     );
