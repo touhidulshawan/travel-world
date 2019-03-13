@@ -3,8 +3,6 @@ import p1 from "../../assets/img/Travel-proj (2).jpeg";
 import p2 from "../../assets/img/Travel-proj (7).jpeg";
 import p3 from "../../assets/img/Travel-proj (8).jpeg";
 
-import "../../assets/css/ImageComposition.min.css";
-
 const ImageComposition = () => {
   return (
     <div className="composition">

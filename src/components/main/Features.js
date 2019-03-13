@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Feature from "./Feature";
-import "../../assets/css/Features.min.css";
 
 class Features extends Component {
   state = {

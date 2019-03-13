@@ -1,1 +1,19 @@
-@import "./partials/initial";
+// Base SCSS
+@import "./partials/base/initial";
+@import "./partials/base/animation";
+@import "./partials/base/colors";
+@import "./partials/base/icon-font";
+@import "./partials/base/mixins";
+@import "./partials/base/typography";
+@import "./partials/base/utility";
+@import "./partials/base/variables";
+@import "./partials/base/grid";
+
+// components scss
+
+@import "./partials/components/About";
+@import "./partials/components/Feature";
+@import "./partials/components/Features";
+@import "./partials/components/Header";
+@import "./partials/components/ImageComposition";
+@import "./partials/components/Tour";

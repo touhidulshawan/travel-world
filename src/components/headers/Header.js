@@ -1,5 +1,4 @@
 import React from "react";
-import "../../assets/css/Header.min.css";
 
 const Header = () => {
   return (
@@ -13,7 +12,7 @@ const Header = () => {
           </span>
         </h1>
         <a href="/" className="btn btn--red btn--animated">
-          Let Explore <i class="fas fa-arrow-down    " />
+          Let Explore <i className="fas fa-arrow-down    " />
         </a>
       </div>
     </header>

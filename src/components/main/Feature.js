@@ -1,5 +1,4 @@
 import React from "react";
-import "../../assets/css/Feature.min.css";
 
 const Feature = props => {
   return (
