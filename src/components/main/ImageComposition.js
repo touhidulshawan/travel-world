@@ -1,7 +1,7 @@
 import React from "react";
-import p1 from "../../assets/img/Travel-proj (2).jpeg";
-import p2 from "../../assets/img/Travel-proj (7).jpeg";
-import p3 from "../../assets/img/Travel-proj (8).jpeg";
+import p1 from "../../assets/img/Travel-proj_2.jpeg";
+import p2 from "../../assets/img/Travel-proj_7.jpeg";
+import p3 from "../../assets/img/Travel-proj_8.jpeg";
 
 const ImageComposition = () => {
   return (

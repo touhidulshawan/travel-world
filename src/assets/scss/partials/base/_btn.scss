@@ -1,0 +1,75 @@
+.btn:link,
+btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 1rem 6rem;
+  border-radius: 2rem;
+  transition: all 0.2s;
+  font-size: 1.8rem;
+  position: relative;
+
+  i {
+    display: none;
+    margin-left: 1.5rem;
+  }
+}
+
+.btn:hover {
+  transform: translateY(-0.3rem);
+  box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
+  i {
+    display: inline-block;
+  }
+}
+
+.btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5rem 1rem rgba($color-black, 0.2);
+  i {
+    display: inline-block;
+  }
+}
+
+.btn::after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.3s;
+}
+
+.btn:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
+
+.btn--animated {
+  animation: moveInBottom 1s ease-out 0.7s;
+  animation-fill-mode: backwards;
+}
+
+// RED Button
+.btn--red::after {
+  background: $red-orange;
+}
+
+.btn--red {
+  background: $red_orange;
+  color: $color-white;
+}
+
+// WHITE Button
+
+.btn--white {
+  background: $color-white;
+  color: $aztec;
+}
+.btn--white::after {
+  background: $color-white;
+}
