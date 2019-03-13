@@ -73,3 +73,12 @@ btn:visited {
 .btn--white::after {
   background: $color-white;
 }
+
+.btn--indigo {
+  background: $indigo-dark;
+  color: $color-white;
+}
+
+.btn--indigo::after {
+  background: $indigo-dark;
+}

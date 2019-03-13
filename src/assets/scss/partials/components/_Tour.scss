@@ -1,5 +1,10 @@
+@import "../base/btn";
 .tour {
   padding: 20rem 0;
   background: $color-gray-light-1;
   margin-top: -8rem;
+
+  .cta_btn {
+    text-align: center;
+  }
 }

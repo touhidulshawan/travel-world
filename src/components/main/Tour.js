@@ -34,6 +34,11 @@ class Tour extends Component {
             />
           </div>
         </div>
+        <div className="cta_btn">
+          <a href="/" className="btn btn--indigo">
+            Discover More
+          </a>
+        </div>
       </section>
     );
   }
