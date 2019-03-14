@@ -1,3 +1,4 @@
+// Block Button
 .btn:link,
 btn:visited {
   display: inline-block;
@@ -81,4 +82,31 @@ btn:visited {
 
 .btn--indigo::after {
   background: $indigo-dark;
+}
+
+// Text Button
+
+.btn-text {
+  &:link,
+  &:visited {
+    font-size: 1.6rem;
+    color: $red_orange !important;
+    display: inline-block;
+    border-bottom: 1px solid $red_orange;
+    text-decoration: none;
+    padding: 3px;
+    transition: all 0.2s;
+  }
+
+  &:hover {
+    background: $sinbad;
+    transform: translateY(-2px);
+    box-shadow: 0 1rem 2rem rgba($color-black, 0.15);
+  }
+
+  &:active {
+    background: $sinbad;
+    transform: translate(0);
+    box-shadow: 0 0.5rem 1rem rgba($color-black, 0.15);
+  }
 }
