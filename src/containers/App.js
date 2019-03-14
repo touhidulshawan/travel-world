@@ -4,6 +4,7 @@ import Header from "../components/headers/Header";
 import About from "../components/main/About";
 import Features from "../components/main/Features";
 import Tour from "../components/main/Tour";
+import Story from "../components/main/Story";
 class App extends Component {
   render() {
     return (
@@ -15,6 +16,7 @@ class App extends Component {
           <About />
           <Features />
           <Tour />
+          <Story />
         </main>
       </React.Fragment>
     );
