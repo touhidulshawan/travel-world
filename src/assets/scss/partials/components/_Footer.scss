@@ -1,0 +1,35 @@
+.footer-section {
+  padding: 5rem 0;
+  background: $aztec;
+  color: $color-white;
+
+  ul {
+    list-style: none;
+    li {
+      display: inline-block;
+
+      &:not(:last-child) {
+        margin-right: 20px;
+      }
+
+      a {
+        color: $color-white;
+        text-decoration: none;
+        transition: all 0.3s;
+
+        &:hover {
+          color: $red_orange;
+        }
+      }
+    }
+  }
+  h4 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  p {
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-align: right;
+  }
+}
