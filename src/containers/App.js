@@ -6,6 +6,7 @@ import Features from "../components/main/Features";
 import Tour from "../components/main/Tour";
 import Story from "../components/main/Story";
 import Booking from "../components/main/Booking";
+import Footer from "../components/footer/Footer";
 class App extends Component {
   render() {
     return (
@@ -20,6 +21,9 @@ class App extends Component {
           <Story />
           <Booking />
         </main>
+        <footer>
+          <Footer />
+        </footer>
       </React.Fragment>
     );
   }
