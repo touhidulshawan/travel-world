@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "../assets/css/App.min.css";
+import Navigation from "../components/headers/Navigation";
 import Header from "../components/headers/Header";
 import About from "../components/main/About";
 import Features from "../components/main/Features";
@@ -11,6 +12,7 @@ class App extends Component {
   render() {
     return (
       <React.Fragment>
+        <Navigation />
         <header>
           <Header />
         </header>
