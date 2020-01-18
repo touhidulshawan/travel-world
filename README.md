@@ -11,7 +11,7 @@
 
 1. Visual Studio Code
 
-### Design from a Learning Course
+### Design from a Learning Course (Design credit Jonas Schmedtmann)
 
 ## Live at
 https://touhidulshawan.github.io/travel-world/
